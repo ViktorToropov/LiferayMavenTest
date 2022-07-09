@@ -1,0 +1,10 @@
+Bundle-Name: getdb-api
+Bundle-SymbolicName: com.lr.getdb.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.lr.getdb.exception,\
+	com.lr.getdb.model,\
+	com.lr.getdb.service,\
+	com.lr.getdb.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../getdb-service/service.xml

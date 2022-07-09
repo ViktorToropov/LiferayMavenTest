@@ -1,0 +1,1 @@
+create index IX_DD2E9333 on lr_GetDb (uuid_[$COLUMN_LENGTH:75$]);
